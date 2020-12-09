@@ -1,0 +1,27 @@
+/* loads the background image keeps it into centre position with fill all windows and no repeat*/
+body {
+  width: 100%;
+  background: url(../image/mountain.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Sticky footor */
+#sticky-footer {
+  flex-shrink: none;
+}
+
+/* font style Lato is used */
+.card.p-5.m-5{
+  background: rgb(135, 206, 235,0.7);
+  font-family: 'Lato', sans-serif;
+}
+/* All texts are transformed into uppercase, 600 weight added, and letter spacing with 3 pixels */
+.navbar{
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
